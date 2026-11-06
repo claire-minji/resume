@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minji Oh | Regulatory Affairs Specialist</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --bg:#0f172a;
+    --card:#1e293b;
+    --card-hover:#263549;
+    --text:#f8fafc;
+    --sub:#94a3b8;
+    --primary:#38bdf8;
+    --border:#334155;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    line-height:1.7;
+}
+
+.container{
+    width:min(1100px,90%);
+    margin:auto;
+}
+
+/* HEADER */
+
+header{
+    padding:120px 0;
+}
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+}
+
+.hero-text h1{
+    font-size:4rem;
+    font-weight:800;
+    line-height:1.1;
+}
+
+.hero-text span{
+    color:var(--primary);
+}
+
+.hero-text p{
+    color:var(--sub);
+    margin-top:20px;
+    max-width:700px;
+    font-size:1.1rem;
+}
+
+.buttons{
+    margin-top:35px;
+    display:flex;
+    gap:15px;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.primary{
+    background:var(--primary);
+    color:#000;
+}
+
+.secondary{
+    border:1px solid var(--border);
+    color:white;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+/* SECTION */
+
+section{
+    padding:80px 0;
+}
+
+.section-title{
+    font-size:2rem;
+    margin-bottom:40px;
+}
+
+.card{
+    background:var(--card);
+    border:1px solid var(--border);
+    border-radius:20px;
+    padding:30px;
+    transition:.3s;
+}
+
+.card:hover{
+    background:var(--card-hover);
+}
+
+/* ABOUT */
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:25px;
+}
+
+.about p{
+    color:var(--sub);
+}
+
+/* SKILLS */
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+}
+
+.skill{
+    background:var(--card);
+    border:1px solid var(--border);
+    padding:10px 18px;
+    border-radius:999px;
+}
+
+/* EXPERIENCE */
+
+.timeline{
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.timeline h3{
+    margin-bottom:8px;
+}
+
+.timeline small{
+    color:var(--primary);
+}
+
+.timeline ul{
+    margin-top:15px;
+    padding-left:18px;
+}
+
+.timeline li{
+    margin-bottom:10px;
+    color:var(--sub);
+}
+
+/* PROJECTS */
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:var(--card);
+    padding:28px;
+    border-radius:20px;
+    border:1px solid var(--border);
+}
+
+.project-card h3{
+    margin-bottom:12px;
+}
+
+.project-card p{
+    color:var(--sub);
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    color:var(--sub);
+    margin-bottom:12px;
+}
+
+footer{
+    padding:50px 0;
+    text-align:center;
+    color:var(--sub);
+}
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text h1{
+    font-size:2.5rem;
+}
+
+.about{
+    grid-template-columns:1fr;
+}
+
+.buttons{
+    justify-content:center;
+}
+}
+
+</style>
+</head>
+<body>
+
+<header>
+<div class="container">
+<div class="hero">
+
+<div class="hero-text">
+
+<h1>
+Minji <span>Oh</span>
+</h1>
+
+<h2 style="margin-top:15px;">
+Regulatory Affairs Specialist
+</h2>
+
+<p>
+Medical Device Regulatory Affairs professional with experience
+in SaMD approvals, clinical trial operations, MFDS submissions,
+technical documentation, and quality compliance.
+Passionate about transforming scientific evidence into successful
+medical device approvals.
+</p>
+
+<div class="buttons">
+<a href="resume.pdf" class="btn primary" download>
+Download CV
+</a>
+
+<a href="#contact" class="btn secondary">
+Contact
+</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</header>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">About</h2>
+
+<div class="about">
+
+<div class="card">
+<h3>Professional Summary</h3>
+<p>
+Experienced in Medical Device Regulatory Affairs and Clinical Trial
+Management, with expertise in MFDS submissions, SaMD approvals,
+Clinical Evaluation Reports (CER), Risk Management Reports (RMR),
+and Quality Management Systems.
+</p>
+</div>
+
+<div class="card">
+<h3>Core Strengths</h3>
+<p>
+MFDS Regulatory Submission,
+Innovation Medical Device Designation,
+Clinical Trial Applications,
+Quality Compliance,
+Cross-functional Collaboration,
+Regulatory Documentation.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Medical Device RA</div>
+<div class="skill">SaMD</div>
+<div class="skill">MFDS Approval</div>
+<div class="skill">CER</div>
+<div class="skill">RMR</div>
+<div class="skill">SLR</div>
+<div class="skill">GMP</div>
+<div class="skill">GCP</div>
+<div class="skill">ISO 13485</div>
+<div class="skill">Clinical Trials</div>
+<div class="skill">Regulatory Submission</div>
+<div class="skill">Technical Documentation</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Experience</h2>
+
+<div class="timeline">
+
+<div class="card">
+
+<h3>Digital Pharm</h3>
+<small>Regulatory Affairs Specialist | 2026 - Present</small>
+
+<ul>
+<li>Led MFDS submissions for Class II SaMD products.</li>
+<li>Prepared CER, RMR, SOTA, product specifications and technical documentation.</li>
+<li>Supported Innovation Medical Device Designation applications.</li>
+<li>Managed IND submission and approval processes.</li>
+<li>Coordinated development teams, CROs and external vendors.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>Seoul National University Hospital</h3>
+<small>Clinical Trial Project Manager | 2021 - 2025</small>
+
+<ul>
+<li>Managed Phase I–III Clinical Trials.</li>
+<li>Supported MFDS inspections and audits.</li>
+<li>Protocol, IB and ICF review management.</li>
+<li>IRB submission and compliance activities.</li>
+<li>AE/SAE and CAPA management.</li>
+</ul>
+
+</div>
+
+<div class="card">
+
+<h3>IMScout</h3>
+<small>Researcher | 2024 - 2025</small>
+
+<ul>
+<li>Conducted medical device patent research.</li>
+<li>Analyzed competitor products.</li>
+<li>Provided product planning recommendations.</li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Major Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>MFDS Approval Project</h3>
+<p>
+Built full regulatory submission package for Class II Digital Therapeutics
+including CER, RMR, SOTA and supporting evidence documentation.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Innovation Medical Device</h3>
+<p>
+Prepared designation application packages according to updated
+MFDS guidelines and regulatory requirements.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Clinical Trial IND Approval</h3>
+<p>
+Supported protocol development, literature review and submission
+documents for exploratory clinical studies.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2 class="section-title">Education & Certifications</h2>
+
+<div class="card">
+
+<h3>Education</h3>
+<p>
+Bachelor of Clinical Laboratory Science
+<br>
+Soonchunhyang University
+</p>
+
+<br>
+
+<h3>Certifications</h3>
+
+<ul style="padding-left:20px;">
+<li>ISO 13485 Internal Auditor</li>
+<li>Medical Device GMP Training</li>
+<li>Medical Device RA Professional Program</li>
+<li>Clinical Research GCP Training</li>
+</ul>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<p>📧 minji.oh@dgtpharm.com</p>
+<p>📧 snuh.mj@gmail.com</p>
+
+<p>
+LinkedIn • GitHub • Portfolio
+</p>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+© 2026 Minji Oh. All Rights Reserved.
+</footer>
+
+</body>
+</html>
